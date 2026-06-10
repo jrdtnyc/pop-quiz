@@ -55,6 +55,10 @@ if (score == 3) {
   species = "a human";
 }
 
+if (score == 0) {
+  species = "...Yikes";
+}
+
 alert(
   `You scored ${score} out of a potential 3 points. You qualify as ${species}!`,
 );
